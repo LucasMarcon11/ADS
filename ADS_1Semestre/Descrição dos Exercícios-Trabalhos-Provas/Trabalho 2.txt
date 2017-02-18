@@ -1,0 +1,11 @@
+A grelha de Cardano consiste numa folha de material rígido na qual existem aberturas retangulares da altura de uma linha de texto e de comprimento variável, colocadas em intervalos irregulares. O remetente coloca esta matriz sobre a folha de papel e escreve a mensagem secreta nas aberturas. Depois retira a
+grelha e preenche os espaços vazios com letras quaisquer. O destinatário simplesmente coloca uma grelha igual sobre o texto recebido para fazer aparecer a mensagem recebida. Escreva uma classe em java para ler uma mensagem e uma String que corresponde a Grelha de Cardano. A String que correspondente à Grelha de Cardano deve ter o dobro de caracteres da String correspondente à mensagem. Observeo exemplo a seguir: 
+
+Mensagem:
+ALGO SO E IMPOSSIVEL ATE QUE ALGUEM DUVIDE E PROVE O CONTRARIO
+
+Grelha de Cardano:
+XOXOOOXXXOXOOXXXOOXOOXXXOXOOOXXXOOXOXOXOOXOXOOXOOXXOXOOOXXXOXOOXXXOOXOOXXXOXOOOXXXOOXOXOXOOXOXOOXOX
+
+Mensagem criptografada:
+PAZLGOKPOSFOEAYZIMXPOOLUSNSIVERAELDAUTTEQCUNEAKLGDVUNEMDTYOUIVIYAYDEOEPNYXRYOVEQKUOCEOGNLTRVASRIZOV

@@ -1,0 +1,5 @@
+1) Há o plano cartesiano e tanto no eixo x quanto y, deverão ser informado os seus valores, digitados pelo usuário, e então calculado em qual quadrante estão localizados os pontos.
+
+2) Nem lembro do enunciado, ehausehsau, mas acho que é pra escrever um texto/frase/palavra qualquer no meio de outro texto.
+
+3) Fazer uma calculadora com as operações básicas.

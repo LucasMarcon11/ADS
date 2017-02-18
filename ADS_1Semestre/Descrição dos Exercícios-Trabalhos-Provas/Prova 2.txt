@@ -1,0 +1,5 @@
+1) Algoritmo do fatorial.
+
+2) Descobrir se um número é primo ou não.
+
+3) Tem que adivinhar o número sorteado em um intervalo de 1 a 10.

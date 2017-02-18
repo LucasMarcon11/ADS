@@ -1,0 +1,11 @@
+1. Escreva uma classe em Java que simule a jogada de um dado (de seis lados) dez vezes e mostre o resultado na tela.
+
+2. Escreva uma classe em Java para ler 10 números inteiros e encontrar o menor e o maior valor, utilizando as funções max e min.
+
+3. Escreva uma classe em Java que calcule quantos metros cúbicos de água suporta uma determinada caixa d’agua em forma de cubo (todos os lados são iguais). O usuário deverá informar o valor do lado e o volume será calculado pela fórmula: Volume = lado³. Arredonde o resultado para o seu inteiro anterior.
+
+4. Escreva uma classe em Java que permita ao usuário digitar o seu nome e em seguida mostre o nome do usuário de trás para frente utilizando somente letras maiúsculas.
+
+5. Escreva uma classe em Java que a partir uma frase informada pelo usuário, conte quantos espaços em branco existem na frase e quantas vezes aparecem as vogais a, e, i, o, u.
+
+6. Um palíndromo é uma sequência de caracteres cuja leitura é idêntica se feita da direita para esquerda ou da esquerda para a direita. Por exemplo: OSSO e OVO são palíndromos. Em textos mais complexos os espaços e pontuação são ignorados. Por exemplo: a frase SUBI NO ONIBUS é o exemplo de uma frase palíndroma, onde os espaços foram ignorados. Escreva uma classe em Java que leia uma sequência de caracteres, elimine os espaços e diga se é um palíndromo ou não.

@@ -1,0 +1,5 @@
+1. Escreva um algoritmo que leia uma String e mostre na tela a String invertida. Exemplo: se o usuário digitar “ALGORITMOS” deve-se mostrar na tela “SOMTIROGLA”.
+
+2. Escreva um algoritmo que leia uma String chamada “texto” e outras duas Strings chamadas “a” e “b”. Toda vez que o texto contido na String “a” aparecer no texto, deve ser substituída pelo texto armazenado na String “b”.
+
+6. Escreva um algoritmo que leia duas String chamadas “texto1” e “texto2”, bem como um inteiro chamado “posicao". O algoritmo deve inserir a String “texto2” na String “texto1”, na posição “posicao”. 

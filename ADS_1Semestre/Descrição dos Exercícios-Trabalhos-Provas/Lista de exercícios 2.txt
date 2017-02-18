@@ -1,0 +1,15 @@
+1. Escreva uma classe Java para ler um valor inteiro e escrever se ele é positivo ou negativo.
+
+2. Escreva uma classe em Java para ler um valor inteiro positivo e verificar se ele é par ou ímpar.
+
+3. Escreva uma classe em Java para verificar se o ano digitado pelo usuário é bissexto ou não.
+
+4. As maçãs custam R$ 1,30 cada se forem compradas menos de uma dúzia, e R$ 1,00 se forem compradas pelo menos 12. Escreva uma classe em Java que leia o número de maçãs compradas, calcule e escreva o custo total da compra.
+
+5. Embora a lei não possa obrigar o cliente a pagar a gorjeta, normalmente os restaurantes cobram gorjeta para o garçom, a qual equivale a 10% do valor gasto pelo cliente. Escreva uma classe em Java que leia o valor gasto pelo cliente e pergunte se o mesmo gostaria de pagar gorjeta. Caso o cliente
+responda que sim, o algoritmo deve realizar o cálculo da gorjeta informando o valor total gasto pelo cliente e o valor da gorjeta ofertada ao garçom.
+
+6. Escreva uma classe em Java que leia o total das vendas de um funcionário no mês de fevereiro e mostre o valor referente à sua comissão e seu salário bruto neste mês, sabendo que o seu salário base é R$ 1.200,00 e sua comissão é de 10% sobre o total vendido. O funcionário só ganhará comissão se o
+valor total vendido for maior que R$ 2.000,00.
+
+7. Escreva uma classe em Java para ler três valores inteiros e verificar qual deles é o maior, qual é o intermediário e qual é o menor, mostrando o resultado na tela. 

@@ -1,0 +1,11 @@
+1. Escreva um algoritmo que leia um número e mostre na tela seu sucessor e seu antecessor.
+
+2. Escreva um algoritmo que leia a base e a altura de um triângulo e imprime a sua área.
+
+3. Escreva um algoritmo que leia o ano de nascimento de uma pessoa e imprima a sua idade em 2014.
+
+4. Escreva um algoritmo que lei o valor do salário mínimo e o valor do salário de uma pessoa. Calcular e mostrar quantos salários mínimos ela recebe.
+
+5. Considerando que para um consorcio, sabe-se o numero total de prestações, a quantidade de prestações já pagas e o valor atual da prestação, escreva um algoritmo que determine o total pago pelo consorciado e o saldo devedor.
+
+6. Efetuar o cálculo da quantidade de litros de combustível gastos em uma viagem sabendo-se que o carro faz 12km com um litro. Deverão ser fornecidos o tempo gasto na viagem e a velocidade média.

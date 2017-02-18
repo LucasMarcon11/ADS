@@ -1,0 +1,5 @@
+1. Construir um programa para identificar quantos dias há em um mês, sabendo o mês e o ano.
+
+2. Criar um programa para identificar se um mês digitado pelo usuário é de alta ou baixa temporada (considerar os seguintes meses como alta temporada: dezembro a fevereiro, junho e julho).
+
+3. Criar um programa para identificar se um dia da semana (numerados de 1 a 7) é dia de semana, fim de semana ou um dia inválido.
