@@ -13,7 +13,8 @@ public class JogoDaForca {
           Scanner sc = new Scanner(System.in);
 
           int vidas;
-          int quemJoga = 1;
+          int jogador = 1;
+          int quemJoga = 2;
           int jogador1 = 0;
           int jogador2 = 0;
           boolean parar = false;
@@ -24,7 +25,7 @@ public class JogoDaForca {
                String palavraEncriptada = "";
                String letras = "";
                
-               System.out.print("O jogador " + quemJoga + " deve escolher a palavra/frase/letra: ");
+               System.out.print("O jogador " +jogador+ " deve escolher a palavra/frase/letra: ");
                palavra = br.readLine();
                
                System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
@@ -72,14 +73,21 @@ public class JogoDaForca {
                     
                     for (int i = 0; i < palavra.length(); i++) {
 
-                         if (String.valueOf(palavra.charAt(i)).equals(tentativa)) {
+                         if (String.valueOf(palavraEncriptada.charAt(i)).equals(tentativa)) {
+                              
+                              acertou = false;
+                              break;
+                         } else {
+                              
+                              if (String.valueOf(palavra.charAt(i)).equals(tentativa)) {
 
-                              String anterior = palavraEncriptada.substring(0, i);
-                              String posterior = palavraEncriptada.substring(i + 1);
-                              palavraEncriptada = anterior + tentativa + posterior;
+                                   String anterior = palavraEncriptada.substring(0, i);
+                                   String posterior = palavraEncriptada.substring(i + 1);
+                                   palavraEncriptada = anterior + tentativa + posterior;
 
-                              pontos++;
-                              acertou = true;
+                                   pontos++;
+                                   acertou = true;
+                              }
                          }
                     }
 
@@ -101,12 +109,20 @@ public class JogoDaForca {
                          vidas--;
                     }
                }
-
+               
+               if (jogador == 1) {
+                    
+                    jogador++;
+               } else {
+                    
+                    jogador--;
+               }
+               
                if (vidas > 0) {
 
                     System.out.println("\n\n");
                     System.out.print("\t* ----------------------------- *\n");
-                    System.out.print("\t* ---- O JOGADOR " + quemJoga + " VENCEU! ---- *\n");
+                    System.out.print("\t* ---- O JOGADOR " +quemJoga+ " VENCEU! ---- *\n");
                     System.out.print("\t* ----------------------------- *\n");
                     System.out.println("\n\n");
                     
@@ -127,10 +143,10 @@ public class JogoDaForca {
                     System.out.println("\n\n");
 
                } else {
-
+                    
                     System.out.println("\n\n");
                     System.out.print("\t* ----------------------------- *\n");
-                    System.out.print("\t* ---- O JOGADOR " + quemJoga + " PERDEU! ---- *\n");
+                    System.out.print("\t* ---- O JOGADOR " +quemJoga+ " PERDEU! ---- *\n");
                     System.out.print("\t* ----------------------------- *\n");
                     System.out.println("\n\n");
                     
