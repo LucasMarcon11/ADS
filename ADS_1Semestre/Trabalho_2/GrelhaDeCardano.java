@@ -63,9 +63,10 @@ public class GrelhaDeCardano {
           } while (j < sizeMsg);
                   
           System.out.print("\nGrade: " + grill);
-      
+          
           sizeGrill = grill.length();
           sizeAlphabeth = alphabeth.length();
+          
           do {
                
                switch(String.valueOf(grill.charAt(k))) {
@@ -88,8 +89,7 @@ public class GrelhaDeCardano {
                          break;
                }
                
-               k++;
-               
+               k++;               
           } while(k < sizeGrill);
           
           System.out.println("\n" + "Mensagem criptografada: " + grill);
