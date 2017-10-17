@@ -1,1 +1,1 @@
-Sou noob, não esperem nada demais dos meus códigos. Recém estou ingressando no mundo da programação, então não possuo altas Skills para fornecer um código bem trabalhado e otimizado, muito menos seguindo todas as normas. Tudo que será postado é para tentar ajudar quem fará o mesmo curso que eu.
+Humildemente aprendendo.
